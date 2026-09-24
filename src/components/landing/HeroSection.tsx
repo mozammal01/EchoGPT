@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { useEcosystem } from '../../context/EcosystemContext';
 import { AI_MODELS } from '../../data/models';
-import { Sparkles, ArrowRight, Zap, Chrome, ShieldCheck, CheckCircle2, Play, Code2, Brain } from 'lucide-react';
+import { Sparkles, ArrowRight, Zap, Puzzle, ShieldCheck, CheckCircle2, Play, Code2, Brain } from 'lucide-react';
 
 export const HeroSection: React.FC = () => {
   const { setActiveTab, setPrimaryModelId, setIsSplitMode } = useEcosystem();
@@ -60,7 +60,7 @@ export const HeroSection: React.FC = () => {
             onClick={() => setActiveTab('extension')}
             className="px-7 py-3.5 rounded-2xl glass-panel hover:bg-slate-900 border border-slate-800 text-slate-200 hover:text-white font-bold text-sm transition flex items-center gap-2"
           >
-            <Chrome className="w-4 h-4 text-cyan-400" />
+            <Puzzle className="w-4 h-4 text-cyan-400" />
             <span>Test Chrome Extension</span>
           </button>
         </div>

@@ -6,13 +6,12 @@ import {
   Sparkles,
   Layout,
   MessageSquare,
-  Chrome,
+  Puzzle,
   Sun,
   Moon,
   Award,
   BookOpen,
   Settings,
-  Github,
   Zap,
 } from 'lucide-react';
 
@@ -91,7 +90,7 @@ export const Navbar: React.FC = () => {
                 : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
             }`}
           >
-            <Chrome className="w-3.5 h-3.5" />
+            <Puzzle className="w-3.5 h-3.5" />
             <span>Extension Simulator</span>
           </button>
         </nav>
